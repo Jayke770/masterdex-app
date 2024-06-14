@@ -13,8 +13,8 @@ export default function OnBoarding() {
         <AnimatePresence mode="wait">
             <section className="flex flex-col justify-center items-center h-screen w-screen p-2 overflow-hidden">
                 {tab === "welcome" && (
-                    <div className="grid w-full h-full grid-rows-3">
-                        <div className="row-span-2 flex flex-col justify-center items-center gap-10">
+                    <div className="grid w-full h-full grid-rows-4">
+                        <div className="row-span-3 flex flex-col justify-center items-center gap-10">
                             <motion.div
                                 initial={{
                                     scale: 0.1,
@@ -48,7 +48,7 @@ export default function OnBoarding() {
                                         opacity: 0
                                     }}
                                     transition={{ type: "spring", duration: 0.50, delay: 0.1 }}
-                                    className="text-2xl font-bold">Master Dex Wallet</motion.p>
+                                    className="text-2xl font-bold">MasterDex Wallet</motion.p>
                                 <motion.p
                                     initial={{
                                         y: 50,
@@ -66,7 +66,7 @@ export default function OnBoarding() {
                                     }}
                                     transition={{ type: "spring", duration: 0.50, delay: 0.1 }}
                                     className="  text-base text-gray-300 text-center px-6 ">
-                                    Create your new wallet or import using seed phrase if you already have an account.
+                                    Best Wallet ever !!!!!!!!
                                 </motion.p>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ export default function OnBoarding() {
                                     radius="lg"
                                     size="lg"
                                     variant="shadow"
-                                    onClick={() => onSetTab("wallet-setup")}>Next</Button>
+                                    onClick={() => onSetTab("wallet-setup")}>{"Let's Go"}</Button>
                             </motion.div>
                         </div>
                     </div>
@@ -122,8 +122,8 @@ export default function OnBoarding() {
                                 <ArrowLeft />
                             </Button>
                         </motion.div>
-                        <div className="grid w-full h-full grid-rows-3">
-                            <div className="row-span-2 flex flex-col justify-center items-center gap-10">
+                        <div className="grid w-full h-full grid-rows-4">
+                            <div className="row-span-3 flex flex-col justify-center items-center gap-10">
                                 <motion.div
                                     initial={{
                                         scale: 0.1,
