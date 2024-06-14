@@ -1,6 +1,6 @@
 {
   "productName": "MasterDex",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "identifier": "com.masterdex.dev",
   "build": {
     "beforeDevCommand": "bun run dev",
@@ -33,6 +33,22 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ]
+    ],
+    "shortDescription": "MasterDex Wallet",
+    "windows": {
+      "allowDowngrades": true,
+      "certificateThumbprint": null,
+      "digestAlgorithm": null,
+      "nsis": null,
+      "signCommand": null,
+      "timestampUrl": null,
+      "tsp": false,
+      "webviewFixedRuntimePath": null,
+      "webviewInstallMode": {
+        "silent": true,
+        "type": "offlineInstaller"
+      },
+      "wix": null
+    }
   }
 }
