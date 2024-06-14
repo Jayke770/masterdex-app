@@ -10,8 +10,9 @@ export default function Home() {
     const [status, setStatus] = useState("Please wait...")
     useAsyncEffect(async () => {
         const state = await settings.appState()
+        console.log('state', state)
         setStatus("Redirecting...")
-        navigate("wallet")
+        navigate(state === "old" ? "/wallet" : "/onboarding")
     }, [])
     return (
         <div
