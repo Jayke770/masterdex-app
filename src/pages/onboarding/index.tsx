@@ -1,6 +1,5 @@
-import { Button, Card, CardBody, CardFooter, Divider } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import { ArrowLeft, Bitcoin, Wallet } from "lucide-react";
-import { useLocalstorageState } from "rooks";
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
