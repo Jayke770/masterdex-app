@@ -15,6 +15,7 @@ import {
     ArrowDownToDot,
     CreditCard
 } from 'lucide-react'
+import { faker } from '@faker-js/faker'
 import CountUp from 'react-countup';
 import Coin from "../../components/wallet/coin";
 import NFT from "../../components/wallet/nft";
@@ -33,7 +34,7 @@ export default function Wallet() {
                     <CountUp
                         prefix="$"
                         className=" text-4xl"
-                        end={99999999.4242}
+                        end={faker.number.int({ max: 99999 })}
                         decimals={2} />
                     <Divider orientation="horizontal" className="mt-5" />
                 </CardBody>
