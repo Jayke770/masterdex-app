@@ -8,7 +8,7 @@ A Multi Chain Web3 Wallet Powered By Tauri + Vite + React
 
 - Non custodial wallet 
 - Multi Chain
-- Cross Platform (mobile coming soon)
+- Cross Platform
 - more coming soon...
 
 ## TODO
