@@ -1,21 +1,19 @@
-# Tauri + React + Typescript
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+# Master Wallet
 
-## Recommended IDE Setup
+A Multi Chain Web3 Wallet Powered By Tauri + Vite + React
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
-Template created! To get started run:
-  bun install
-  bun run tauri android init
-  bun run tauri ios init
+## Features
 
-For Desktop development, run:
-  bun run tauri dev
+- Non custodial wallet 
+- Multi Chain
+- Cross Platform (mobile coming soon)
+- more coming soon...
 
-For Android development, run:
-  bun run tauri android dev
+## TODO
 
-For iOS development, run:
-  bun run tauri ios dev
+- Wallet Connect Integration 
+- Send/Receive Crypto
+- Swap Crypto
+- Buy Crypto
